@@ -1,0 +1,59 @@
+﻿<Window x:Class="Lab5_CSharp_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab5_CSharp_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu VerticalAlignment="Top" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3">
+            <MenuItem Name="mn_delete" Header="Удалить выбранный файл" Click="Mn_delete_Click" ></MenuItem>
+            <MenuItem Name="mn_about" Header="Об авторе" Click="Mn_about_Click"></MenuItem>
+            <MenuItem  Name="mn_exit" Header="Выход" Click="Mn_exit_Click"></MenuItem>
+        </Menu>
+        <StackPanel Grid.Column="0" Grid.Row="1"  Margin="5" Orientation="Horizontal" Grid.ColumnSpan="2">
+            <TextBlock >Путь поиска:</TextBlock>
+            <TextBox Name="tb_path" Margin="9,0,0,0" MinWidth="100">C:/</TextBox>
+            <Button Name="btn_selectPath" Click="Btn_selectPath_Click" Padding="7,1">Выбрать путь</Button>
+            <Button Name="btn_search" Margin="10,0,0,0" Padding="7,1" Click="Btn_search_Click">Искать</Button>
+        </StackPanel>
+        <Grid Grid.Column="0" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="122*"/>
+                <RowDefinition Height="249*"/>
+            </Grid.RowDefinitions>
+            <GridSplitter Grid.Column="1" Grid.Row="0" ShowsPreview="False" Width="10" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.RowSpan="2" />
+            <ListView Grid.Row="0" Grid.Column="0" Name="lv_files" Margin="5" Grid.RowSpan="2" MouseDoubleClick="lv_files_MouseDoubleClick">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=FileName}">Файл</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=FileAttribute}">Атрибуты</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=createTime}">Время создания</GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <ListView Grid.Row="0" Grid.Column="2" Name="lv_folders" Margin="5" Grid.RowSpan="2">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=FileName}">Папка</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=FileAttribute}">Атрибуты</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=createTime}">Время создания</GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+
+
+    </Grid>
+</Window>

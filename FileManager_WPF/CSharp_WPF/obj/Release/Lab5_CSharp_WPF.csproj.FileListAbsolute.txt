@@ -1,0 +1,15 @@
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\bin\Release\Lab5_CSharp_WPF.exe.config
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\bin\Release\Lab5_CSharp_WPF.exe
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\bin\Release\Lab5_CSharp_WPF.pdb
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\Lab5_CSharp_WPF.csprojAssemblyReference.cache
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\MainWindow.g.cs
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\App.g.cs
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\Lab5_CSharp_WPF_MarkupCompile.cache
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\Lab5_CSharp_WPF_MarkupCompile.lref
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\MainWindow.baml
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\Lab5_CSharp_WPF.g.resources
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\Lab5_CSharp_WPF.Properties.Resources.resources
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\Lab5_CSharp_WPF.csproj.GenerateResource.cache
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\Lab5_CSharp_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\Lab5_CSharp_WPF.exe
+C:\Users\Админ\Desktop\books\3йкурс2йсеместр\СПО С#\LAB\Lab5\Lab5_CSharp_WPF\Lab5_CSharp_WPF\obj\Release\Lab5_CSharp_WPF.pdb
